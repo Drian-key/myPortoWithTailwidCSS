@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "minify": "npx tailwindcss -o ./dist/output.min.css --minify"
   },
   "author": "Drian Tcho",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.12",
     "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
     "tailwindcss": "^3.1.8"
   }
 }
