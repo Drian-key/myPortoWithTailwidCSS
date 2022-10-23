@@ -24,14 +24,6 @@ hamburger.addEventListener("click", () => {
   navMenu.classList.toggle("hidden");
 });
 
-// Klik diluar hamburger
-window.addEventListener("click", (e) => {
-  if (e.target != hamburger && e.target != navMenu) {
-    hamburger.classList.remove("hamburger-active");
-    navMenu.classList.add("hidden");
-  }
-});
-
 // Animate On Scroll
 const hiddenElements = document.querySelectorAll(".hiddenClass");
 
