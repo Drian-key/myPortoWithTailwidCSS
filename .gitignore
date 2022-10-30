@@ -1,6 +1,2 @@
 node_modules/*
-src/*
-output.css
-package-json
-tailwind.config.js
-webpack.config.js
+g.d
