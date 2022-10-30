@@ -1,6 +1,6 @@
-.node_modules
-.src
-.output.css
-.package-json
-.tailwind.config.js
-.webpack.config.js
+node_modules/*
+src/*
+output.css
+package-json
+tailwind.config.js
+webpack.config.js
